@@ -4,7 +4,7 @@ const argv = require('./config/yargs');
 console.clear();
 
 /*console.log(argv);
-
+consolo.log("");
 console.log(argv.base)*/
 const numero = argv.base;
 crearTabla(numero, argv.l)
